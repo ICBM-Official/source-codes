@@ -16,7 +16,7 @@
 * py-cord-components
 * py-cord[voice]
 * discord-webhook
-* Discord-Anti-Spam==1.2.1
+* ~~Discord-Anti-Spam==1.2.1~~
 * asyncio
 * asyncpg
 * PyGithub
@@ -40,3 +40,8 @@
 * aiohttp
 * psutil
 
+###### How to install a package
+
+```py
+pip install package
+```
