@@ -13,7 +13,6 @@
 ### Python packages
 
 •	py-cord
-
 •	py-cord-components
 •	py-cord[voice]
 •	discord-webhook
