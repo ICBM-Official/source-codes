@@ -13,6 +13,7 @@
 
 ### Links
 [![](https://img.shields.io/badge/Discord-blue)](https://discord.gg/JrhpDWayG3)
+[![](https://img.shields.io/badge/Web-blue)](https://www.inspirationbot.co.uk/)
 
 
 # About
