@@ -43,5 +43,5 @@
 ###### How to install a package
 
 ```py
-pip install package
+pip install (package_name)
 ```
