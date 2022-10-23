@@ -1,6 +1,7 @@
+![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
+
 # Inspiration | Custom Bot Making 
 ### Source codes
-![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
 
 ![](https://img.shields.io/github/contributors/ICBM-Official/source-codes)
 ![](https://img.shields.io/badge/Maintained-Yes-indigo)
