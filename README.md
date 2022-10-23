@@ -1,6 +1,6 @@
 ![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
 ![forthebadge](https://forthebadge.com/images/badges/open-source.svg)
-![madeby](img/made-by-icbm.svg.png)
+![madeby](img/made-by-icbm.svg)
 
 
 # Inspiration | Custom Bot Making 
