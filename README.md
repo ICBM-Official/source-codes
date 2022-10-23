@@ -11,7 +11,7 @@
 
 # About
 
-[![Banner]((https://cdn.discordapp.com/attachments/741001519389736980/989523558948556810/main_title.gif))]
+[![Banner](img/banner.gif)]
 
 ### Python packages
 
