@@ -1,0 +1,13 @@
+@client.command()
+async def membercount(ctx):
+    members = len(ctx.guild.members)
+    humans = len([m for m in ctx.guild.members if not m.bot])
+    bots = len([m for m in ctx.guild.members if m.bot])
+    embed = discord.Embed(colour = (clienthex),title = ('Membercount'), timestamp = (ctx.message.created_at))
+    embed.set_author(name=ctx.guild.name, icon_url=ctx.guild.icon.url)
+    embed.set_thumbnail(url=ctx.guild.icon.url)
+    embed.add_field(name='Members', value=(f"""{members}"""), inline=False)
+    embed.add_field(name='Humans', value=(f"""{humans}"""), inline=False)
+    embed.add_field(name='Bots', value=(f"""{bots}"""), inline=False)
+    await ctx.send(embed=embed)
+    await ctx.message.delete()

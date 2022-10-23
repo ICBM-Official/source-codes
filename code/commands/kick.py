@@ -1,0 +1,10 @@
+@client.command(pass_context = True)
+@commands.has_permissions(kick_members=True)
+async def kick(ctx, member : discord.Member, *, reason=None):
+    embed = discord.Embed(colour = (clienthex),title = ('Kicked'),description = (f'Kicked {member}'), timestamp = (ctx.message.created_at))
+    embed.set_author(name=f"{member}", icon_url=member.avatar.url)
+    embed.set_thumbnail(url=member.avatar.url)
+    embed.add_field(name='Reason', value=(f"""{reason}"""), inline=False)
+    await member.kick(reason=reason)
+    await ctx.send(embed=embed)
+    await ctx.message.delete()

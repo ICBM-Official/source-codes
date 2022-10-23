@@ -1,0 +1,11 @@
+@client.command(pass_context = True)
+@commands.has_permissions(manage_messages=True)
+async def warn(ctx, member : discord.Member, *, reason=None):
+    embed = discord.Embed(colour = (clienthex),title = ('Warned'),description = (f'You have been warned! {member}'), timestamp = (ctx.message.created_at))
+    embed.set_author(name=f"{member}", icon_url=member.avatar.url)
+    embed.set_thumbnail(url=member.avatar.url)
+    embed.add_field(name='Reason', value=(f"""{reason}"""), inline=False)
+    await ctx.send(f'{member.mention}')
+    await ctx.send(embed=embed)
+    await member.send(embed=embed)
+    await ctx.message.delete()
