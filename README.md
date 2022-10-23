@@ -11,7 +11,7 @@
 
 # About
 
-[![Banner](img/banner.png)]
+[![Banner](img/banner.png)
 
 ### Python packages
 
