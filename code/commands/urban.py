@@ -5,7 +5,7 @@ async def urbandictionary(ctx, term):
 
     headers = {
     'x-rapidapi-host': "mashape-community-urban-dictionary.p.rapidapi.com",
-    'x-rapidapi-key': "6f97d59d22msh975d545aa225b2ap1220f9jsn7bc3b5c98207"
+    'x-rapidapi-key': ""
     }
     async with ClientSession() as session:
         async with session.get(url, headers=headers, params=querystring) as response:
