@@ -34,7 +34,7 @@ async def weather(ctx, *, location: str):
             description=f'There was an error retrieving weather data for {location}.',
             colour=clienthex
         )
-    url = f'http://api.openweathermap.org/data/2.5/weather?q={location}&appid=f6b9c1c911f126a37f4d63c0f8e8d23c&units=imperial'
+    url = f'http://api.openweathermap.org/data/2.5/weather?q={location}&appid=&units=imperial'
     try:
         data = parse_data(json.loads(requests.get(url).content)['main'])
         print(data)
