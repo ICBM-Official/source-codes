@@ -9,6 +9,9 @@
 [![](https://img.shields.io/badge/Discord-blue)](https://discord.gg/JrhpDWayG3)
 
 
+# About
+
+[![Banner]((https://cdn.discordapp.com/attachments/741001519389736980/989523558948556810/main_title.gif))]
 
 ### Python packages
 
