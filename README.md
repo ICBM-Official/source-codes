@@ -13,8 +13,11 @@
 ### Python packages
 
 •	py-cord
+
 •	py-cord-components
+
 •	py-cord[voice]
+
 •	discord-webhook
 •	Discord-Anti-Spam==1.2.1
 •	asyncio
