@@ -1,4 +1,6 @@
 ![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
+![forthebadge](https://forthebadge.com/images/badges/open-source.svg)
+https://forthebadge.com/generator/?plabel=Made+by&pbg=%236E01AA&sbg=%236E7173&slabel=ICBM
 
 # Inspiration | Custom Bot Making 
 ### Source codes
